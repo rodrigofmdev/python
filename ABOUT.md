@@ -49,7 +49,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ### 📂 Portfólio
 
-| Projeto | Link | Roadmap Skills Desenvolvidas |
+| Projeto | Link | Skills Desenvolvidas |
 |--------|------|-------------------------------|
 | **Sistema Bancário (POO)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/bank_system) | Classes, Encapsulamento, Herança, Polimorfismo, Regras de Negócio, Estrutura de projeto |
 | **Calculadora Modular (Pacote Python)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/calculator) | Modularização, criação de pacotes reutilizáveis, estrutura de pastas, uso de `__init__.py`, lógica de operações matemáticas |
@@ -74,8 +74,15 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 - ⏳ Cloud Computing e deploy de aplicações  
 
 #### 📘 Cursos
-- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h - Out/2024) - [Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
-- 🔄 **CS50 Introduction to Computer Science – Harvard University – (220h - Atual) - [Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) 
+- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA e DIO
+Duração: 91h
+Conclusão: Outubro de 2024
+[Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
+
+- 🔄 **CS50 Introduction to Computer Science – Harvard University
+Duração: 220h
+Conclusão: em andamento
+[Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) | [Certificado]()
 
 ---
 
