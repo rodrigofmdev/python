@@ -73,7 +73,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 - ⏳ Cloud Computing
 
 #### 📘 Cursos
-- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h)  | [Certificados](https://github.com/rodrigofmdev](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
+- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h)  | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
 - 🔄 **CS50 – Harvard University** (Conceitos de ciência da computação)
 
 ---
