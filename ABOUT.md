@@ -75,62 +75,95 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 #### 📘 Cursos
 
+<details>
+  <summary>🟢 Concluídos </summary>
 - ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA e DIO
   Duração: 91h
   Conclusão: Outubro de 2024
   [Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
+</details>
 
-- 🔄 \*\*CS50 Introduction to Computer Science – Harvard University
+<details>
+  <summary>🟡 Em andamento</summary>
+- 🔄 **CS50 Introduction to Computer Science** – Harvard University
   Duração: 220h
   Conclusão: em andamento
   [Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) | [Certificado]()
+</details>
 
 <details>
   <summary>⚪ Não iniciados</summary>
 
-- ⏳ \*\*Rede de computadores – Udemy
+- ⏳ **Rede de computadores** – Udemy
+  
   Duração: 4,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/rede-de-computadores/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Python e MySQL para iniciantes – Udemy
+- ⏳ **Python e MySQL para iniciantes** – Udemy
+
   Duração: 9,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/mysql-para-iniciantes/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Fast Api construa apis em Python – Udemy
+- ⏳ **Fast Api construa apis em Python** – Udemy
+
   Duração: 1,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/fastapi-construa-apis-em-python-em-1-hora-iniciante/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Aprenda a criar RESTful API com Django Rest – Udemy
+- ⏳ **Aprenda a criar RESTful API com Django Rest** – Udemy
+
   Duração: 3,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/construa-poderosas-restful-apis-com-django-rest-framework/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Utilizando Clean Architecture DDD e TDD com Django e Flask – Udemy
+- ⏳ **Utilizando Clean Architecture DDD e TDD com Django e Flask** – Udemy
+
   Duração: 4,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/utilizando-clean-architecture-ddd-e-tdd-com-django-e-flask/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Domine Pytest: Testes de Software com Python – Udemy
+- ⏳ **Domine Pytest: Testes de Software com Python** – Udemy
+
   Duração: 4h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/domine-pytest/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Métodos Ágeis para Iniciantes – Udemy
+- ⏳ **Métodos Ágeis para Iniciantes** – Udemy
+  
   Duração: 2,5h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/metodos-ageis-para-iniciantes-curso-express/?couponCode=KEEPLEARNINGBR) | [Certificado]()
 
-- ⏳ \*\*Insomnia Rest para Requisições HTTP – Udemy
+- ⏳ **Insomnia Rest para Requisições HTTP** – Udemy
+
   Duração: 2h
+  
   Conclusão: -
+  
   [Link](https://www.udemy.com/course/insomnia-rest-para-requisicoes-http/?couponCode=ST16MT28125) | [Certificado]()
 
-- ⏳ \*\*Aprenda Documentação com Sphinx em Python do zero – Udemy
+- ⏳ **Aprenda Documentação com Sphinx em Python do zero** – Udemy
+
 Duração: 3h
+
 Conclusão: -
+
 [Link](https://www.udemy.com/course/aprenda-documentacao-com-sphinx-em-python-do-zero/?couponCode=ST16MT28125) | [Certificado]()
 
 </details>
