@@ -1,6 +1,6 @@
-# 👨‍💻 Rodrigo F. M.  
+#  Rodrigo F. M.  
 
-🚀 Engenheiro Mecânico em Transição para Desenvolvimento Backend com Python
+🐍 Engenheiro Mecânico em Transição para Desenvolvimento Backend com Python
 
 [![GitHub](https://img.shields.io/badge/GitHub-rodrigofmdev-181717?style=flat&logo=github)](https://github.com/rodrigofmdev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rodrigofmdev-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/rodrigofmdev/)
@@ -8,7 +8,7 @@
 
 ---
 
-### ✨ Sobre Mim
+### 👨‍💻 Sobre Mim
 
 Olá! Sou Rodrigo, engenheiro mecânico com experiência em projetos industriais, navais e modelagem 3D.
 Atualmente, estou em transição para a área de tecnologia, com foco no **desenvolvimento backend** utilizando **Python**.
@@ -26,13 +26,13 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ---
 
-### 🛠️ Tech Stack
+### 🚀 Tech Stack
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
 [![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white)](#)
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](#)
 
-### 🛠️ Ferramentas
+### 🧰 Ferramentas
 
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](#)
@@ -40,7 +40,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 [![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)](#)
 [![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=flat&logo=insomnia&logoColor=white)](#)
 
-### 🛠️ Processos
+### ⚙️ Processos
 
 [![Agile](https://img.shields.io/badge/Metodologias-Agile-blue)](#)
 [![GitFlow](https://img.shields.io/badge/Workflow-GitFlow-orange)](#)
