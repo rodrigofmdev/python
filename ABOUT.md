@@ -81,7 +81,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 - ⏳ Cloud Computing e deploy de aplicações
 </details>
 
-#### 📘 Cursos
+### 📘 Cursos
 
 <details>
   <summary>🟢 Concluídos </summary>
