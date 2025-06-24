@@ -13,9 +13,9 @@ This is a straightforward terminal project that simulates a banking system with 
 
 **Execute the script in the terminal**:
 
-    ```bash
+  
     python bank_system.py
-    ```
+    
 ---
 
 ## 🧾 Features
