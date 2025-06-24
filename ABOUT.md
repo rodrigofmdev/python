@@ -1,6 +1,6 @@
 # Rodrigo F. M
 
-🐍 Engenheiro Mecânico em Transição para Desenvolvimento Backend com Python
+Engenheiro Mecânico em Transição para Desenvolvimento Backend com Python 🐍
 
 [![GitHub](https://img.shields.io/badge/GitHub-rodrigofmdev-181717?style=flat&logo=github)](https://github.com/rodrigofmdev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rodrigofmdev-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/rodrigofmdev/)
