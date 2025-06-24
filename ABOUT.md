@@ -56,38 +56,52 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ---
 
-### 📚 Em Estudo
-
+### 📚 Tópicos estudados
+<details>
+  <summary>🟢 Concluídos </summary>
 - ✅ Sintaxe básica, tipos operadores, tipos de dados, estruturas de condicionais, decisão e repetição
 - ✅ Coleções: listas, tuplas, conjuntos, dicionário
 - ✅ Modularização, funções e pacotes reutilizáveis
 - ✅ Programação Orientada a Objetos (OOP): Herança, encapsulamento, polimorfismo, interfaces, classes abstratas
 - ✅ Controle de versionamento com Git e GitHub
 - ✅ Markdown para documentação técnica
+</details>
 
+<details>
+  <summary>🟡 Em andamento</summary>
 - 🔄 SQL e estrutura de banco de dados
 - 🔄 API Rest, Flask e FastAPI
+</details>
 
+<details>
+  <summary>⚪ Não iniciados</summary>
 - ⏳ Testes automatizados com `pytest`
 - ⏳ NoSQL
 - ⏳ Container Docker
 - ⏳ Cloud Computing e deploy de aplicações
+</details>
 
 #### 📘 Cursos
 
 <details>
   <summary>🟢 Concluídos </summary>
 - ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA e DIO
+
   Duração: 91h
+  
   Conclusão: Outubro de 2024
+  
   [Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
 </details>
 
 <details>
   <summary>🟡 Em andamento</summary>
 - 🔄 **CS50 Introduction to Computer Science** – Harvard University
+
   Duração: 220h
+  
   Conclusão: em andamento
+  
   [Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) | [Certificado]()
 </details>
 
