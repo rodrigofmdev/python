@@ -21,6 +21,7 @@ Tenho aplicado meu raciocínio lógico, organização e perfil analítico para a
 ### 🎯 Objetivo Profissional
 
 Atuar como **desenvolvedor backend Python**, contribuindo dentro de um time colaborativo que permita minha evolução técnica e entrega de valor a equipe.
+
 Estou aberto para conversas e entrevistas para minha primeira oportunidade de atuação profissional como desenvolvedor.
 
 ---
@@ -72,7 +73,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 - ⏳ Cloud Computing
 
 #### 📘 Cursos
-- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h)  
+- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h)  | [Certificados](https://github.com/rodrigofmdev](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
 - 🔄 **CS50 – Harvard University** (Conceitos de ciência da computação)
 
 ---
@@ -87,6 +88,6 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ### 🤝 Vamos nos conectar?
 
-Estou aberto a colaborações, mentorias, networking e principalmente à minha **primeira oportunidade profissional em tecnologia**.
+Estou aberto a colaborações, mentorias e networking.
 
 > 💬 Fique à vontade para visitar meu [GitHub](https://github.com/rodrigofmdev), me adicionar no [LinkedIn](https://www.linkedin.com/in/rodrigofmdev) ou entrar em contato por [email](mailto:rodrigofmdev@gmail.com)!
