@@ -58,10 +58,11 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ### 📚 Em Estudo
 
-- ✅ Sintaxe, tipos de dados, estruturas de decisão e repetição  
+- ✅ Sintaxe básica, tipos operadores, tipos de dados, estruturas de condicionais, decisão e repetição
+- ✅ Coleções: listas, tuplas, conjuntos, dicionário
 - ✅ Modularização, funções e pacotes reutilizáveis  
-- ✅ Programação Orientada a Objetos (OOP)  
-- ✅ Git e GitHub
+- ✅ Programação Orientada a Objetos (OOP): Herança, encapsulamento, polimorfismo, interfaces, classes abstratas
+- ✅ Controle de versionamento com Git e GitHub
 - ✅ Markdown para documentação técnica
 
 - 🔄 SQL e estrutura de banco de dados
@@ -69,12 +70,12 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 - ⏳ Testes automatizados com `pytest`  
 - ⏳ NoSQL  
-- ⏳ Docker e deploy de aplicações  
-- ⏳ Cloud Computing
+- ⏳ Container Docker 
+- ⏳ Cloud Computing e deploy de aplicações  
 
 #### 📘 Cursos
-- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h)  | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
-- 🔄 **CS50 – Harvard University** (Conceitos de ciência da computação)
+- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA | DIO (91h - Out/2024) - [Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
+- 🔄 **CS50 Introduction to Computer Science – Harvard University – (220h - Atual) - [Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) 
 
 ---
 
