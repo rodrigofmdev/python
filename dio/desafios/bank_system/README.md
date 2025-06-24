@@ -16,9 +16,6 @@ This is a straightforward terminal project that simulates a banking system with 
     ```bash
     python bank_system.py
     ```
-
-    *Replace `bank_system.py` with your script's filename if you used a different one.*
-
 ---
 
 ## 🧾 Features
