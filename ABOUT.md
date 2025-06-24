@@ -1,4 +1,4 @@
-#  Rodrigo F. M.  
+# Rodrigo F. M
 
 🐍 Engenheiro Mecânico em Transição para Desenvolvimento Backend com Python
 
@@ -49,10 +49,10 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 ### 📂 Portfólio
 
-| Projeto | Link | Skills Desenvolvidas |
-|--------|------|-------------------------------|
-| **Sistema Bancário (POO)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/bank_system) | Classes, Encapsulamento, Herança, Polimorfismo, Regras de Negócio, Estrutura de projeto |
-| **Calculadora Modular (Pacote Python)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/calculator) | Modularização, criação de pacotes reutilizáveis, estrutura de pastas, uso de `__init__.py`, lógica de operações matemáticas |
+| Projeto                                 | Link                                                                                          | Skills Desenvolvidas                                                                                                        |
+| --------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Sistema Bancário (POO)**              | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/bank_system) | Classes, Encapsulamento, Herança, Polimorfismo, Regras de Negócio, Estrutura de projeto                                     |
+| **Calculadora Modular (Pacote Python)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/calculator)  | Modularização, criação de pacotes reutilizáveis, estrutura de pastas, uso de `__init__.py`, lógica de operações matemáticas |
 
 ---
 
@@ -60,7 +60,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 - ✅ Sintaxe básica, tipos operadores, tipos de dados, estruturas de condicionais, decisão e repetição
 - ✅ Coleções: listas, tuplas, conjuntos, dicionário
-- ✅ Modularização, funções e pacotes reutilizáveis  
+- ✅ Modularização, funções e pacotes reutilizáveis
 - ✅ Programação Orientada a Objetos (OOP): Herança, encapsulamento, polimorfismo, interfaces, classes abstratas
 - ✅ Controle de versionamento com Git e GitHub
 - ✅ Markdown para documentação técnica
@@ -68,27 +68,78 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 - 🔄 SQL e estrutura de banco de dados
 - 🔄 API Rest, Flask e FastAPI
 
-- ⏳ Testes automatizados com `pytest`  
-- ⏳ NoSQL  
-- ⏳ Container Docker 
-- ⏳ Cloud Computing e deploy de aplicações  
+- ⏳ Testes automatizados com `pytest`
+- ⏳ NoSQL
+- ⏳ Container Docker
+- ⏳ Cloud Computing e deploy de aplicações
 
 #### 📘 Cursos
-- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA e DIO
-Duração: 91h
-Conclusão: Outubro de 2024
-[Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
 
-- 🔄 **CS50 Introduction to Computer Science – Harvard University
-Duração: 220h
-Conclusão: em andamento
-[Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) | [Certificado]()
+- ✅ **Bootcamp Python & Engenharia de Dados** – NTT DATA e DIO
+  Duração: 91h
+  Conclusão: Outubro de 2024
+  [Link](https://www.dio.me/bootcamp/engenharia-dados-python) | [Certificados](https://github.com/rodrigofmdev/python/tree/main/dio/certificados)
+
+- 🔄 \*\*CS50 Introduction to Computer Science – Harvard University
+  Duração: 220h
+  Conclusão: em andamento
+  [Link](https://pll.harvard.edu/course/cs50-introduction-computer-science) | [Certificado]()
+
+<details>
+  <summary>⚪ Não iniciados</summary>
+
+- ⏳ \*\*Rede de computadores – Udemy
+  Duração: 4,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/rede-de-computadores/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Python e MySQL para iniciantes – Udemy
+  Duração: 9,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/mysql-para-iniciantes/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Fast Api construa apis em Python – Udemy
+  Duração: 1,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/fastapi-construa-apis-em-python-em-1-hora-iniciante/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Aprenda a criar RESTful API com Django Rest – Udemy
+  Duração: 3,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/construa-poderosas-restful-apis-com-django-rest-framework/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Utilizando Clean Architecture DDD e TDD com Django e Flask – Udemy
+  Duração: 4,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/utilizando-clean-architecture-ddd-e-tdd-com-django-e-flask/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Domine Pytest: Testes de Software com Python – Udemy
+  Duração: 4h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/domine-pytest/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Métodos Ágeis para Iniciantes – Udemy
+  Duração: 2,5h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/metodos-ageis-para-iniciantes-curso-express/?couponCode=KEEPLEARNINGBR) | [Certificado]()
+
+- ⏳ \*\*Insomnia Rest para Requisições HTTP – Udemy
+  Duração: 2h
+  Conclusão: -
+  [Link](https://www.udemy.com/course/insomnia-rest-para-requisicoes-http/?couponCode=ST16MT28125) | [Certificado]()
+
+- ⏳ \*\*Aprenda Documentação com Sphinx em Python do zero – Udemy
+Duração: 3h
+Conclusão: -
+[Link](https://www.udemy.com/course/aprenda-documentacao-com-sphinx-em-python-do-zero/?couponCode=ST16MT28125) | [Certificado]()
+
+</details>
 
 ---
 
 ### 🌍 Idiomas
 
-- 🇧🇷 **Português** – Nativo  
+- 🇧🇷 **Português** – Nativo
 - 🇺🇸 **Inglês Avançado** – 6 meses de vivência nos EUA  
   → Fluente na leitura de documentações técnicas e cursos internacionais.
 
