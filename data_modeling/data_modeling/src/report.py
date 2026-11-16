@@ -1,37 +1,70 @@
-def generate_report(df, analysis):
-
-    print("\n=== FOAM INJECTION QUALITY ANALYSIS ===")
-
-    print("\nFoam density by machine:")
-    print(analysis.density_by_machine(df))
-
-    print("\nAir bubbles percentage (lower is better):")
-    print(analysis.bubbles_by_machine(df))
-
-    print("\nQuality score by machine:")
-    print(analysis.quality_by_machine(df))
+from pathlib import Path
 
 
-    print("\n=== PROCESS EFFICIENCY ===")
+def generate_report(df, analysis, output_path: Path) -> None:
+    """Write a Markdown report with the production analysis."""
 
-    print("\nEfficiency score by machine:")
-    print(analysis.efficiency_by_machine(df))
+    report_lines = [
+        "# PU Foam Injection Production Analysis",
+        "",
+        "## Dataset overview",
+        "",
+        f"- Valid production records: {len(df)}",
+        f"- Machines analyzed: {df['machine_id'].nunique()}",
+        f"- Refrigerator models analyzed: {df['model'].nunique()}",
+        "",
+        "## Average metrics by machine",
+        "",
+        "| Machine | Foam density | Air bubbles (%) | Quality score | Efficiency score |",
+        "| --- | ---: | ---: | ---: | ---: |",
+    ]
 
+    density_by_machine = analysis.density_by_machine(df)
+    bubbles_by_machine = analysis.bubbles_by_machine(df)
+    quality_by_machine = analysis.quality_by_machine(df)
+    efficiency_by_machine = analysis.efficiency_by_machine(df)
 
-    print("\n=== ENVIRONMENTAL IMPACT ===")
+    machine_ids = df["machine_id"].drop_duplicates().tolist()
+    for machine_id in machine_ids:
+        report_lines.append(
+            f"| {machine_id} | {density_by_machine[machine_id]:.2f} | "
+            f"{bubbles_by_machine[machine_id]:.2f} | "
+            f"{quality_by_machine[machine_id]:.2f} | "
+            f"{efficiency_by_machine[machine_id]:.4f} |"
+        )
 
-    print("\nHumidity vs air bubbles correlation:")
-    print(analysis.humidity_vs_bubbles(df))
+    report_lines.extend(
+        [
+            "",
+            "## Key insights",
+            "",
+            f"- Highest average quality score: "
+            f"{analysis.best_machine_quality(df)}.",
+            f"- Highest average efficiency score: "
+            f"{analysis.best_machine_efficiency(df)}.",
+            f"- Humidity level with the lowest average air-bubble rate in "
+            f"this sample: {analysis.optimal_humidity(df)}%.",
+            f"- Humidity and air-bubble correlation: "
+            f"{analysis.humidity_vs_bubbles(df).iloc[0, 1]:.3f}.",
+            "",
+            "## Quality by refrigerator model",
+            "",
+        ]
+    )
 
+    report_lines.extend(
+        f"- **{model}:** {score:.2f}"
+        for model, score in analysis.quality_by_model(df).items()
+    )
+    report_lines.extend(
+        [
+            "",
+            "## Limitations",
+            "",
+            "This is a small fictional dataset. The observed patterns are "
+            "descriptive and do not establish causal relationships.",
+            "",
+        ]
+    )
 
-    print("\n=== PRODUCT IMPACT ===")
-
-    print("\nQuality by refrigerator model:")
-    print(analysis.quality_by_model(df))
-
-
-    print("\n=== KEY INSIGHTS ===")
-
-    print(f"Best machine (quality): {analysis.best_machine_quality(df)}")
-    print(f"Best machine (efficiency): {analysis.best_machine_efficiency(df)}")
-    print(f"Optimal humidity for lowest defects: {analysis.optimal_humidity(df)}%")
+    output_path.write_text("\n".join(report_lines), encoding="utf-8")

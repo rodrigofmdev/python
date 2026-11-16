@@ -1,43 +1,64 @@
 import pandas as pd
 
-# Load data from CSV file
+
+NUMERIC_COLUMNS = [
+    "ambient_temp_c",
+    "humidity_pct",
+    "foam_density",
+    "air_bubbles_pct",
+    "injection_time_sec",
+    "material_usage_kg",
+    "cycle_time_sec",
+]
+
+REQUIRED_COLUMNS = [
+    "date",
+    "machine_id",
+    "model",
+    *NUMERIC_COLUMNS,
+]
+
+
 def load_data(file_path):
+    """Load production records from a CSV file."""
+
     return pd.read_csv(file_path)
 
 
-# Clean and enrich dataset
 def clean_data(df):
+    """Validate, clean, and add process metrics to the production data."""
 
-    # Convert date column to datetime
-    df['date'] = pd.to_datetime(df['date'])
+    missing_columns = set(REQUIRED_COLUMNS) - set(df.columns)
+    if missing_columns:
+        raise ValueError(
+            f"Missing required columns: {', '.join(sorted(missing_columns))}"
+        )
 
-    # Remove duplicates
+    df = df.copy()
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+
+    for column in NUMERIC_COLUMNS:
+        df[column] = pd.to_numeric(df[column], errors="coerce")
+
     df = df.drop_duplicates()
+    df = df.dropna(subset=REQUIRED_COLUMNS)
 
-    # Remove invalid or negative values
-    numeric_cols = [
-        'ambient_temp_c',
-        'humidity_pct',
-        'foam_density',
-        'air_bubbles_pct',
-        'injection_time_sec',
-        'material_usage_kg',
-        'cycle_time_sec'
+    for column in NUMERIC_COLUMNS:
+        df = df[df[column] >= 0]
+
+    df = df[
+        (df["humidity_pct"] <= 100)
+        & (df["air_bubbles_pct"] <= 100)
+        & (df["cycle_time_sec"] > 0)
     ]
 
-    for col in numeric_cols:
-        df = df[df[col] >= 0]
+    if df.empty:
+        raise ValueError("No valid production records remain after cleaning.")
 
-    # Handle missing values
-    df = df.dropna()
+    df["quality_score"] = df["foam_density"] / (
+        1 + df["air_bubbles_pct"]
+    )
+    df["efficiency_score"] = 1 / df["cycle_time_sec"]
+    df["high_humidity_flag"] = df["humidity_pct"] > 60
 
-    # Quality score
-    df['quality_score'] = df['foam_density'] / (1 + df['air_bubbles_pct'])
-
-    # Efficiency
-    df['efficiency_score'] = 1 / df['cycle_time_sec']
-
-    # Normalize humidity
-    df['high_humidity_flag'] = df['humidity_pct'] > 60
-
-    return df
+    return df.reset_index(drop=True)

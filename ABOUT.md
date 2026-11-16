@@ -51,7 +51,7 @@ Estou aberto para conversas e entrevistas para minha primeira oportunidade de at
 
 | Projeto                                 | Link                                                                                          | Skills Desenvolvidas                                                                                                        |
 | --------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Sistema Bancário (POO)**              | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/bank_system) | Classes, Encapsulamento, Herança, Polimorfismo, Regras de Negócio, Estrutura de projeto                                     |
+| **Sistema Bancário (POO)**              | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/init) | Classes, Encapsulamento, Herança, Polimorfismo, Regras de Negócio, Estrutura de projeto                                     |
 | **Calculadora Modular (Pacote Python)** | [🔗 Ver no GitHub](https://github.com/rodrigofmdev/python/tree/main/dio/desafios/calculator)  | Modularização, criação de pacotes reutilizáveis, estrutura de pastas, uso de `__init__.py`, lógica de operações matemáticas |
 
 ---

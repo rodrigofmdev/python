@@ -14,7 +14,7 @@ This is a straightforward terminal project that simulates a banking system with 
 **Execute the script in the terminal**:
 
   
-    python bank_system.py
+    python main.py
     
 ---
 
@@ -52,5 +52,7 @@ MIT License
 
 ## ✍️ Author
 
+@rodrigofmdev
+- E-mail: rodrigofmdev@gmail.com
 - GitHub: [github.com/rodrigofmdev](https://www.google.com/search?q=https://github.com/rodrigofmdev)
 - LinkedIn: [linkedin.com/in/rodrigofmdev](https://www.google.com/search?q=https://linkedin.com/in/rodrigofmdev)

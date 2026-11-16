@@ -1,0 +1,20 @@
+sale_line_id,order_id,order_date,customer_id,customer_name,city,state,product_id,product_name,category,quantity,unit_price
+SL001,ORD1001,2025-01-05,C001,Ana Souza,Sao Paulo,SP,P001,Laptop,Electronics,1,4200.00
+SL002,ORD1002,2025-01-07,C002,Bruno Lima,Rio de Janeiro,RJ,P002,Mouse,Accessories,2,89.90
+SL003,ORD1003,2025-02-03,C003,Carla Mendes,Belo Horizonte,MG,P003,Desk,Furniture,1,799.50
+SL004,ORD1004,2025-02-08,C001,Ana Souza,Sao Paulo,SP,P004,Office Chair,Furniture,2,499.90
+SL005,ORD1005,2025-03-10,C004,Diego Rocha,Curitiba,PR,P001,Laptop,Electronics,1,4050.00
+SL006,ORD1006,2025-03-20,C005,Elisa Costa,Porto Alegre,RS,P005,Monitor,Electronics,1,1199.90
+SL007,ORD1007,2025-04-01,C002,Bruno Lima,Rio de Janeiro,RJ,P006,Headset,Accessories,1,249.90
+SL008,ORD1008,2025-04-18,C006,Fabio Alves,Sao Paulo,SP,P007,Smartphone,Mobile,1,2699.00
+SL009,ORD1009,2025-05-02,C003,Carla Mendes,Belo Horizonte,MG,P003,Desk,Furniture,2,759.00
+SL010,ORD1010,2025-06-09,C004,Diego Rocha,Curitiba,PR,P008,Keyboard,Accessories,3,179.90
+SL011,ORD1011,2025-07-13,C007,Gabi Souza,Rio de Janeiro,RJ,P005,Monitor,Electronics,2,1149.00
+SL012,ORD1012,2025-08-04,C005,Elisa Costa,Porto Alegre,RS,P002,Mouse,Accessories,1,95.00
+SL013,ORD1013,2025-09-11,C008,Hugo Martins,Belo Horizonte,MG,P007,Smartphone,Mobile,1,2599.00
+SL014,ORD1014,2025-10-22,C001,Ana Souza,Sao Paulo,SP,P006,Headset,Accessories,2,229.00
+SL015,ORD1015,2025-11-06,C006,Fabio Alves,Sao Paulo,SP,P009,Webcam,Accessories,1,329.00
+SL016,ORD1016,2025-12-15,C008,Hugo Martins,Belo Horizonte,MG,P004,Office Chair,Furniture,1,475.00
+SL001,ORD1001,2025-01-05,C001,Ana Souza,Sao Paulo,SP,P001,Laptop,Electronics,1,4200.00
+SL017,ORD1017,2025-12-20,C009,Invalid Quantity,Campinas,SP,P010,Desk Lamp,Home,0,89.90
+SL018,ORD1018,not-a-date,C010,Invalid Date,Santos,SP,P011,Notebook,Office,1,12.50

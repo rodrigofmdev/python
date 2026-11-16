@@ -1,159 +1,80 @@
-# 🧊 PU Foam Injection Data Analysis for Refrigerator Manufacturing
+# PU Foam Injection Data Analysis
 
-## 📌 Overview
+## 🎯 Objective
 
-This project simulates a real-world data system for analyzing the **PU foam injection process** used in refrigerator manufacturing.
+Analyze fictional polyurethane foam injection data from refrigerator
+manufacturing to explore process quality, efficiency, and environmental
+conditions.
 
-The goal is to demonstrate how production and environmental data can be transformed into **actionable insights** to improve:
+## ✨ Features
 
-- Product quality (insulation performance)
-- Process efficiency
-- Manufacturing consistency
+- Load and validate production data with Pandas.
+- Remove duplicate and invalid records.
+- Engineer quality, efficiency, and humidity metrics.
+- Compare production machines and refrigerator models.
+- Generate a Markdown report and charts.
+- Save each run's outputs in a timestamped folder.
 
----
+## 📂 Project Structure
 
-## 🧠 Business Context
+- `main.py`: command-line entry point and analysis workflow.
+- `src/data_cleaning.py`: input loading, validation, cleaning, and features.
+- `src/analysis.py`: grouped metrics and comparisons.
+- `src/report.py`: Markdown report generation.
+- `src/visualization.py`: chart generation.
+- `data/production_data.csv`: sample input data.
+- `requirements.txt`: Python dependencies.
+- `output/`: timestamped reports and charts.
 
-In refrigerator production, **PU (polyurethane) foam injection** is a critical step that directly impacts thermal insulation.
+## 📊 Input Data
 
-Key process variables such as:
+The sample dataset contains production date, machine, refrigerator model,
+ambient temperature, humidity, foam density, air-bubble rate, injection time,
+material use, and cycle time.
 
-- Ambient temperature
-- Humidity
-- Injection time
-- Material usage
-
-can significantly affect quality indicators like:
-
-- Foam density
-- Air bubble formation (defects)
-
-This project models these relationships and extracts insights to support **data-driven decision making in manufacturing environments**.
-
----
-
-## ⚙️ Features
-
-- 📥 Data loading and validation
-- 🧼 Data cleaning and preprocessing
-- 🧠 Feature engineering (quality & efficiency metrics)
-- 📊 Process and quality analysis
-- 🌍 Environmental impact analysis
-- 📈 Visualization of key relationships
-- 📄 Automated reporting with insights
-
----
-
-## 📊 Dataset Description
-
-The dataset simulates production data from foam injection machines and includes:
-
-| Column               | Description                  |
-| -------------------- | ---------------------------- |
-| `date`               | Production date              |
-| `machine_id`         | Injection machine identifier |
-| `model`              | Refrigerator model           |
-| `ambient_temp_c`     | Ambient temperature (°C)     |
-| `humidity_pct`       | Ambient humidity (%)         |
-| `foam_density`       | Foam density (kg/m³)         |
-| `air_bubbles_pct`    | Defect indicator (%)         |
-| `injection_time_sec` | Injection duration (seconds) |
-| `material_usage_kg`  | Material consumption (kg)    |
-| `cycle_time_sec`     | Total cycle time (seconds)   |
-
----
-
-## 🧠 Feature Engineering
-
-To enhance analysis, the following metrics were created:
-
-- **Quality Score**
-  - Combines density and defect rate
-  - Higher = better foam quality
-
-- **Efficiency Score**
-  - Based on cycle time
-  - Higher = more efficient process
-
-- **High Humidity Flag**
-  - Identifies conditions that may increase defect risk
-
----
-
-## 📈 Key Analyses
-
-This project provides insights such as:
-
-- 📊 Foam quality comparison between machines
-- ⚙️ Process efficiency evaluation
-- 🌍 Impact of humidity on defect formation
-- 🧊 Product-level quality differences
-- 🎯 Identification of optimal operating conditions
-
----
-
-## 💡 Example Insights
-
-- Higher humidity levels tend to increase air bubble formation
-- Some machines consistently deliver better quality scores
-- Optimal humidity ranges can reduce defect rates
-- Trade-offs exist between efficiency and quality
-
----
+The dataset is intentionally small and fictional. Its patterns are suitable
+for learning, not for making operational decisions.
 
 ## 🚀 How to Run
 
-### 1. Clone the repository
+### 1. Navigate to the project folder
 
-```bash
-git clone https://github.com/rodrigomacarini/python_data_modeling.git
-cd python_data_modeling
+From the repository root, run:
+
+```powershell
+cd .\python\data_modeling\data_modeling
 ```
 
-### 2. Install requiments
+### 2. Install dependencies
 
-Instale as dependencias com o comando abaixo
-
-```bash
-pip install -r requirements.txt
+```powershell
+py -3.15 -m pip install -r requirements.txt
 ```
 
-### 3. Run
+### 3. Run the analysis
 
-Open terminal and use
-
-```bash
-python main.py
+```powershell
+py -3.15 .\main.py
 ```
 
-## Libraries & Usage
+To analyze a different CSV file, provide its path:
 
-This project leverages a minimal and focused set of Python libraries to ensure clarity, performance, and maintainability.
+```powershell
+py -3.15 .\main.py --input .\data\production_data.csv
+```
 
-### Pandas
+## 📄 Results
 
-Used for data manipulation and analysis.
+Each run creates `output/YYYY-MM-DD-HH-MM-SS/` with:
 
-Loading the dataset (read_csv)
-Data cleaning (handling duplicates, missing values, type conversion)
-Feature engineering (creation of quality and efficiency metrics)
-Aggregations (groupby) for performance and quality analysis
+- `report.md`
+- `humidity_vs_air_bubbles.png`
+- `quality_by_machine.png`
 
-Where it is used:
+## ✍️ Author
 
-src/data_cleaning.py → data loading and preprocessing
-src/analysis.py → grouping and statistical analysis
+@rodrigofmdev
 
-### Matplotlib
-
-Used for data visualization and exploratory analysis.
-
-Scatter plots to analyze relationships (e.g., humidity vs air bubbles)
-Bar charts for comparing machine performance (quality and efficiency)
-
-Where it is used:
-
-src/visualization.py → generation of plots and charts
-
-### Author
-Rodrigo Macarini 
+- Email: rodrigofmdev@gmail.com
+- GitHub: [github.com/rodrigofmdev](https://github.com/rodrigofmdev)
+- LinkedIn: [linkedin.com/in/rodrigofmdev](https://linkedin.com/in/rodrigofmdev)
